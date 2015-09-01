@@ -14,6 +14,8 @@
 		CC0B9BDC1B9598C500A4507F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0B9BDB1B9598C500A4507F /* Images.xcassets */; };
 		CC0B9BDF1B9598C500A4507F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0B9BDD1B9598C500A4507F /* LaunchScreen.xib */; };
 		CC0B9BEB1B9598C500A4507F /* TabbedSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B9BEA1B9598C500A4507F /* TabbedSelfTests.swift */; };
+		CC0B9BF51B95A24000A4507F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B9BF41B95A24000A4507F /* ThirdViewController.swift */; };
+		CC0B9BF71B95A35B00A4507F /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B9BF61B95A35B00A4507F /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CC0B9BE41B9598C500A4507F /* TabbedSelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedSelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0B9BE91B9598C500A4507F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0B9BEA1B9598C500A4507F /* TabbedSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedSelfTests.swift; sourceTree = "<group>"; };
+		CC0B9BF41B95A24000A4507F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CC0B9BF61B95A35B00A4507F /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				CC0B9BDB1B9598C500A4507F /* Images.xcassets */,
 				CC0B9BDD1B9598C500A4507F /* LaunchScreen.xib */,
 				CC0B9BD01B9598C500A4507F /* Supporting Files */,
+				CC0B9BF41B95A24000A4507F /* ThirdViewController.swift */,
+				CC0B9BF61B95A35B00A4507F /* FourthViewController.swift */,
 			);
 			path = TabbedSelf;
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 			files = (
 				CC0B9BD71B9598C500A4507F /* SecondViewController.swift in Sources */,
 				CC0B9BD31B9598C500A4507F /* AppDelegate.swift in Sources */,
+				CC0B9BF51B95A24000A4507F /* ThirdViewController.swift in Sources */,
 				CC0B9BD51B9598C500A4507F /* FirstViewController.swift in Sources */,
+				CC0B9BF71B95A35B00A4507F /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 				CC0B9BF01B9598C500A4507F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC0B9BF11B9598C500A4507F /* Build configuration list for PBXNativeTarget "TabbedSelfTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				CC0B9BF31B9598C500A4507F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
